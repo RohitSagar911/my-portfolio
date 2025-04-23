@@ -38,7 +38,7 @@ main
 
 ## 📸 Preview
 
->![image](https://github.com/user-attachments/assets/portfolio preview image.png)
+>![image](https://github.com/user-attachments/assets/portfolio%20preview%20image.png)
 >
 
 
