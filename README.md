@@ -38,7 +38,7 @@ main
 
 ## 📸 Preview
 
->![image](https://github.com/user-attachments/assets/portfolio%20preview%20image.png)
+>![image](https://github.com/RohitSagar911/my-portfolio/blob/29feb82aa6daecd7d8970b058f698905eba34574/assets/portfolio%20preview%20image.png)
 >
 
 
