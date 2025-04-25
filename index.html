@@ -2,149 +2,38 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- boxicon icons -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <!-- devicon icons -->
-    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-    <!-- scroll animation -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Rohit-Portfolio</title>
+      <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header class="header">
-        <nav class="navbar">
-            <a href="#" class="logo">Portfolio</a>
-            <ul>
-                <li class="active"><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="bars-animation">
-        <div class="bar" style="--i:6;"></div>
-        <div class="bar" style="--i:5;"></div>
-        <div class="bar" style="--i:4;"></div>
-        <div class="bar" style="--i:3;"></div>
-        <div class="bar" style="--i:2;"></div>
-        <div class="bar" style="--i:1;"></div>
-    </div>
-    <main>
-        <section class="home" id="home">
-            <div class="home-info">
-                <h1>Rohit Sagar</h1>
-                <h2>I am
-                    <span style="--i:2;" data-text="Web Developer">Web Developer</span>
-                    <span style="--i:1;" data-text="Software Developer">Software Developer</span>
-                </h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis animi fuga ad ea, quod modi harum
-                    ut velit expedita. Fugit deserunt ad provident rerum pariatur dolor. Dolor ipsum voluptatum iusto
-                    excepturi quae tenetur.</p>
-                <div class="btn-sci">
-                    <a href="#" class="btn">Downlaod CV</a>
+      <header class="header">
+            <a href="#">Rohit</a>
+            <nav class="nav-bar">
+                  <a href="">Home</a>
+                  <a href="">Projects</a>
+                  <a href="">Skills</a>
+                  <a href="">About</a>
+                  <a href="">Contact</a>
+            </nav>
 
-                    <div class="sci">
-                        <a href="#"><i class='bx bxl-github'></i></a>
-                        <a href="#"><i class='bx bxl-linkedin'></i></a>
-                        <a href="#"><i class='bx bxl-twitter'></i></a>
-                        <a href="#"><i class='bx bxl-instagram'></i></a>
+      </header>
+      <section class="home">
+            <h1>Hi, It's me <span>Rohit</span></h1>
+            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus officia tempore sunt cumque repellat, earum sit sed nobis iusto architecto!</h2>
+      </section>
+      <section class="projects">
+            <h2>Projects</h2>
 
-                    </div>
-                </div>
-            </div>
+      </section>
+      <section class="skills">
+            <h2>My Skills</h2>
+      </section>
+      
 
-            <div class="home-img">
-                <div class="img-box">
-                    <div class="img-item">
-                        <img src="home.png" alt="">
-                    </div>
-
-                </div>
-            </div>
-
-        </section>
-        <section class="about" id="about">
-            <h2>About <span>Me</span></h2>
-            <div class="about-me">
-                <h3>Introduction</h3>
-                <p class="bio">hello, I amLorem ipsum dolor sit, amet consectetur adipisicing elit. Ab dignissimos
-                    recusandae numquam eaque esse aut illo doloribus et facilis natus, beatae distinctio quo! Error
-                    obcaecati corrupti eligendi officia deserunt architecto.</p>
-            </div>
-            <div class="skills">
-                <!-- <h2>Skills</h2>
-                <p>Heres the skills in this field i have aquired throughout my journey</p>
-                <div class="skill-icons">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-                    <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-                    <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" />
-
-
-                    <img
-                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg" /> -->
-
-            </div>
-            </div>
-        </section>
-        <section class="projects" id="projects">
-            <h2><span>My</span> Projects</h2>
-            <p class="pp">most recent projects i have worked on</p>
-            <div class="project-grid">
-                <div class="project-card">
-                    <div class="info-cont">
-
-                        <img src="/assets/project.png" alt="Project Screenshot">
-                        <h3>Weather App</h3>
-                        <p>A simple weather app using HTML, CSS, and JS. Fetches real-time data from OpenWeather API.
-                        </p>
-                        <a class="btn" href="https://yourproject.netlify.app" target="_blank">Live Demo</a>
-                        <a class="btn" href="https://github.com/rohit/project-repo" target="_blank">GitHub</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="info-cont">
-
-                        <img src="/assets/project.png" alt="Project Screenshot">
-                        <h3>Weather App</h3>
-                        <p>A simple weather app using HTML, CSS, and JS. Fetches real-time data from OpenWeather API.
-                        </p>
-                        <a class="btn" href="https://yourproject.netlify.app" target="_blank">Live Demo</a>
-                        <a class="btn" href="https://github.com/rohit/project-repo" target="_blank">GitHub</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="info-cont">
-
-                        <img src="/assets/project.png" alt="Project Screenshot">
-                        <h3>Weather App</h3>
-                        <p>A simple weather app using HTML, CSS, and JS. Fetches real-time data from OpenWeather API.
-                        </p>
-                        <a class="btn" href="https://yourproject.netlify.app" target="_blank">Live Demo</a>
-                        <a class="btn" href="https://github.com/rohit/project-repo" target="_blank">GitHub</a>
-                    </div>
-                </div>
-
-            </div>
-
-        </section>
-    </main>
-    <script src="index.js">
-  
-
-    </script>
-
+      <script src="script.js"></script>
 
 </body>
 
